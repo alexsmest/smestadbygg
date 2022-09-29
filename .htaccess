@@ -14,6 +14,8 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 
 RewriteRule ^(.*)$ $1.html [NC,L]
 
+
+
 # Put the filename in the bracket fo r the server to locate the indexfile without it beeing named index
 
 DirectoryIndex [Hjem]
