@@ -33,10 +33,10 @@
   );
   */
 
-  $contact->add_message( $_POST['navn'], 'From');
+  $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['tellefon'], 'Phone');
-  $contact->add_message( $_POST['tema'], 'Message', 10);
+  $contact->add_message( $_POST['phone'], 'Phone');
+  $contact->add_message( $_POST['message'], 'Message', 10);
 
   echo $contact->send();
 ?>
